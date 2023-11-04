@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="12" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-04T22:15:30 IST" name="Suite" finished-at="2023-11-04T22:15:30 IST" duration-ms="218">
+    <groups>
+      <group name="smoke">
+        <method signature="Day3.FifthTest()[pri:0, instance:testNGDay1.Day3@59fd97a8]" name="FifthTest" class="testNGDay1.Day3"/>
+        <method signature="Day2.ThridTest(java.lang.String)[pri:0, instance:testNGDay1.Day2@7334aada]" name="ThridTest" class="testNGDay1.Day2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-11-04T22:15:30 IST" name="Test" finished-at="2023-11-04T22:15:30 IST" duration-ms="77">
+      <class name="testNGDay1.Day1">
+        <test-method is-config="true" signature="Prerequisite()[pri:0, instance:testNGDay1.Day1@48ae9b55]" started-at="2023-11-04T22:15:30 IST" name="Prerequisite" finished-at="2023-11-04T22:15:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Prerequisite -->
+        <test-method signature="Demo(java.lang.String)[pri:0, instance:testNGDay1.Day1@48ae9b55]" started-at="2023-11-04T22:15:30 IST" name="Demo" finished-at="2023-11-04T22:15:30 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- testNGDay1.Day1 -->
+      <class name="testNGDay1.Day4">
+        <test-method signature="EighthTest()[pri:0, instance:testNGDay1.Day4@1139b2f3]" started-at="2023-11-04T22:15:30 IST" name="EighthTest" finished-at="2023-11-04T22:15:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EighthTest -->
+        <test-method signature="NinethTest()[pri:0, instance:testNGDay1.Day4@1139b2f3]" started-at="2023-11-04T22:15:30 IST" name="NinethTest" finished-at="2023-11-04T22:15:30 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NinethTest -->
+        <test-method signature="SeventhTest()[pri:0, instance:testNGDay1.Day4@1139b2f3]" started-at="2023-11-04T22:15:30 IST" name="SeventhTest" finished-at="2023-11-04T22:15:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeventhTest -->
+        <test-method is-config="true" signature="LastActivity()[pri:0, instance:testNGDay1.Day4@1139b2f3]" started-at="2023-11-04T22:15:30 IST" name="LastActivity" finished-at="2023-11-04T22:15:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastActivity -->
+      </class> <!-- testNGDay1.Day4 -->
+    </test> <!-- Test -->
+    <test started-at="2023-11-04T22:15:30 IST" name="Test2" finished-at="2023-11-04T22:15:30 IST" duration-ms="22">
+      <class name="testNGDay1.Day3">
+        <test-method signature="FifthTest()[pri:0, instance:testNGDay1.Day3@59fd97a8]" started-at="2023-11-04T22:15:30 IST" name="FifthTest" finished-at="2023-11-04T22:15:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FifthTest -->
+        <test-method signature="FourthTest()[pri:0, instance:testNGDay1.Day3@59fd97a8]" started-at="2023-11-04T22:15:30 IST" name="FourthTest" finished-at="2023-11-04T22:15:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthTest -->
+        <test-method signature="SixthTest(java.lang.String)[pri:0, instance:testNGDay1.Day3@59fd97a8]" started-at="2023-11-04T22:15:30 IST" name="SixthTest" finished-at="2023-11-04T22:15:30 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SixthTest -->
+      </class> <!-- testNGDay1.Day3 -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-11-04T22:15:30 IST" name="Test3" finished-at="2023-11-04T22:15:30 IST" duration-ms="10">
+      <class name="testNGDay1.Day1">
+        <test-method is-config="true" signature="FirstofAll()[pri:0, instance:testNGDay1.Day1@48ae9b55]" started-at="2023-11-04T22:15:30 IST" name="FirstofAll" finished-at="2023-11-04T22:15:30 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstofAll -->
+        <test-method is-config="true" signature="LastofAll()[pri:0, instance:testNGDay1.Day1@48ae9b55]" started-at="2023-11-04T22:15:30 IST" name="LastofAll" finished-at="2023-11-04T22:15:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastofAll -->
+      </class> <!-- testNGDay1.Day1 -->
+      <class name="testNGDay1.Day2">
+        <test-method signature="ThridTest(java.lang.String)[pri:0, instance:testNGDay1.Day2@7334aada]" started-at="2023-11-04T22:15:30 IST" name="ThridTest" finished-at="2023-11-04T22:15:30 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/loginpagePractise/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThridTest -->
+      </class> <!-- testNGDay1.Day2 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

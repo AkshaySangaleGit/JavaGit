@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <groups>
+		<run >
+			<exclude name="smoke"></exclude>
+		</run>
+	</groups>
+	<!-- <groups>
+		<run >
+			<include name="smoke"></include>
+		</run>
+	</groups> -->
+    
+    <classes>
+      <class name="testNGDay1.Day1"/>
+      <class name="testNGDay1.Day2"/>
+      <class name="testNGDay1.Day3"/>
+      <class name="testNGDay1.Day4"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
